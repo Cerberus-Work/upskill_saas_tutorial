@@ -76,6 +76,10 @@ background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, F
    
  }
  
+ .well {
+ background: white; &:hover {color: #6f0000;}
+  
+ }
 
 
 
