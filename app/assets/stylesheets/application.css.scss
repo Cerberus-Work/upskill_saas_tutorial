@@ -50,6 +50,23 @@ background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, F
   }
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+ background-color: white;
+ 
+ 
+}
+
+.navbar-default .navbar-toggle {
+ border: 2px solid white; 
+ &:hover, &:focus {
+ background-color: #200122; 
+ }
+ 
+}
+
+
+
+
  // Home Page Styles
  .home-callout { 
    color: white;
@@ -59,10 +76,6 @@ background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, F
    
  }
  
- .navbar-brand {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 800;
-}
 
 
 
