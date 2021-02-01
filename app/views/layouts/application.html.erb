@@ -41,13 +41,12 @@
       </div> 
     </nav>
     
-      <div class="container"></div>
+      <div class="container flash-container">
        <% flash.each do |type, msg| %>
         <%= content_tag :div, msg, class: "alert alert-#{type}" %>
        <% end %>
       </div>
-       
-    <%= yield %>
+      <%= yield %>
     
   </body>
 </html>
